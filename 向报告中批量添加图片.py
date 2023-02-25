@@ -34,7 +34,7 @@ for i in range(10):
     # 计算添加图片的位置
     row = i * 30 + 1
     # 创建图片对象
-    img = Image('图片名.png')
+    img = Image('名.png')
     # 将图片添加到指定的单元格
     sheet.add_image(img, 'V' + str(row))
 # 保存excel文件
